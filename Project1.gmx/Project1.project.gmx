@@ -7,16 +7,23 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\player</object>
+    <object>objects\player1</object>
+    <object>objects\player2</object>
     <object>objects\floor1</object>
+    <object>objects\movingPlatform</object>
     <object>objects\oGame</object>
+    <object>objects\goal</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1</room>
     <room>rooms\room0</room>
   </rooms>
   <constants number="2">
