@@ -14,6 +14,7 @@
   <objects name="objects">
     <object>objects\player</object>
     <object>objects\floor1</object>
+    <object>objects\oGame</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
