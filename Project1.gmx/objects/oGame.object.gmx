@@ -27,14 +27,8 @@
             <kind>1</kind>
             <string>window_set_fullscreen(true);
 
-player1Left = ord('A');
-player1Right = ord('D');
-
-player2Left = vk_left;
-player2Right = vk_right;
-
-player1Jump = vk_space;
-player2Jump = vk_space;
+mode = 1;
+jump = 1;
 </string>
           </argument>
         </arguments>
@@ -64,18 +58,12 @@ player2Jump = vk_space;
 
 if keyboard_check_pressed(vk_shift){
    //swap modes
-   if(player1Left == ord('A')){
-       player1Left = vk_left;
-       player2Right = ord('D');
-       player1Jump = ord('W');
-       player2Jump = vk_up;
-   } else {
-   //reset
-       player1Left = ord('A');
-       player2Right = vk_right;
-       player1Jump = vk_space;
-       player2Jump = vk_space;
-   }
+   mode *= -1;
+}
+
+if keyboard_check_pressed(vk_control){
+   //swap modes
+   jump *= -1;
 }
 </string>
           </argument>

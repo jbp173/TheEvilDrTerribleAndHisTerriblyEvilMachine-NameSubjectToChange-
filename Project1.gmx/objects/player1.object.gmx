@@ -52,9 +52,17 @@ movespeed = 4;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>key_right = keyboard_check(oGame.player1Right);
-key_left = -keyboard_check(oGame.player1Left);
-key_jump = keyboard_check_pressed(oGame.player1Jump);
+            <string>if (oGame.mode == 1)
+    key_right = keyboard_check(ord('D'));
+else
+    key_right = keyboard_check(vk_left);
+key_left = -keyboard_check(ord('A'));
+
+if (oGame.jump == 1)
+   key_jump = keyboard_check_pressed(ord('W')) || keyboard_check_pressed(vk_up);
+else
+    key_jump = keyboard_check_pressed(ord('W'));
+
 
 move = key_left + key_right;
 hsp = move * movespeed;
