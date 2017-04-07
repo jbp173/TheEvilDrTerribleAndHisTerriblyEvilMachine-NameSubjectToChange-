@@ -60,7 +60,7 @@ key_right = keyboard_check(vk_right);
 if (oGame.jump == 1)
    key_jump = keyboard_check_pressed(ord('W')) || keyboard_check_pressed(vk_up);
 else
-    key_jump = keyboard_check_pressed(vk_up);
+    key_jump = keyboard_check_pressed(ord('W'));
     
     
 move = key_left + key_right;
