@@ -28,7 +28,7 @@
             <string>window_set_fullscreen(true);
 
 mode = 1;
-jump = 1;
+jump = 0;
 </string>
           </argument>
         </arguments>
@@ -62,12 +62,12 @@ if(keyboard_check_pressed(ord('R'))){
 
 if keyboard_check_pressed(vk_shift){
    //swap modes
-   mode *= -1;
+   //mode *= -1;
 }
 
 if keyboard_check_pressed(vk_control){
    //swap modes
-   jump *= -1;
+   //jump *= -1;
 }
 </string>
           </argument>

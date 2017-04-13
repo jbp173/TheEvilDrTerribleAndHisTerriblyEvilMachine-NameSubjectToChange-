@@ -11,6 +11,8 @@
     <sprite>sprites\sprite1</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\spriteFadeOut</sprite>
+    <sprite>sprites\spriteFadeIn</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,10 +23,14 @@
     <object>objects\movingPlatform</object>
     <object>objects\oGame</object>
     <object>objects\goal</object>
+    <object>objects\screenFadeIn</object>
+    <object>objects\screenFadeOut</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
-    <room>rooms\room0</room>
+    <room>rooms\Level1</room>
+    <room>rooms\Level2</room>
+    <room>rooms\Level3</room>
+    <room>rooms\PlaytestLevel</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41954.1945635185</constant>
