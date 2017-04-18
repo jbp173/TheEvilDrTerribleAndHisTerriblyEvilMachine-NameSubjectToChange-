@@ -30,6 +30,8 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 7;
 movespeed = 4;
+
+image_speed = 0;
 </string>
           </argument>
         </arguments>
@@ -66,6 +68,7 @@ else
 move = key_left + key_right;
 hsp = move * movespeed;
 if (vsp &lt; 10) vsp += grav;
+if(hsp != 0){image_speed = movespeed/room_speed;} else { image_speed = 0;}
 
 if (place_meeting(x,y+1, floor1))
 {
