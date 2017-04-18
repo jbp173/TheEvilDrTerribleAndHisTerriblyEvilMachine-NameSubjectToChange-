@@ -31,10 +31,10 @@
     <object>objects\Doctor</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\PlaytestLevel</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
     <room>rooms\Level3</room>
+    <room>rooms\PlaytestLevel</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41954.1945635185</constant>
