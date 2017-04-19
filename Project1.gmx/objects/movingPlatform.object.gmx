@@ -70,6 +70,10 @@ x += hsp;
 if place_meeting(x,y-1, player){ //player above me
             player.hsp_carry = hsp;
 }
+
+if(place_meeting(x+sign(hsp), y, player)){
+    self.dir *= -1;
+}
 </string>
           </argument>
         </arguments>

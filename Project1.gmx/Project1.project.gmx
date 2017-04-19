@@ -32,11 +32,11 @@
     <object>objects\player</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Level5</room>
-    <room>rooms\PlaytestLevel</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
     <room>rooms\Level3</room>
+    <room>rooms\Level4</room>
+    <room>rooms\Level5</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41954.1945635185</constant>
