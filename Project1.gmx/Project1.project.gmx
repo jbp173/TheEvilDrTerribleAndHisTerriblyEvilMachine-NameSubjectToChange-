@@ -17,6 +17,7 @@
     <sprite>sprites\doctorOriginal</sprite>
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\Textbox</sprite>
+    <sprite>sprites\terribleMachine</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -42,6 +43,7 @@
     <object>objects\textboxObj</object>
     <object>objects\terrible</object>
     <object>objects\screenFlash</object>
+    <object>objects\terribleMachineObj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>

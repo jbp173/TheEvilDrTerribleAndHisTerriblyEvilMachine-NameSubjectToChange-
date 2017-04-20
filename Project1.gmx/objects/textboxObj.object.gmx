@@ -323,6 +323,7 @@ switch(num)
     break;
     
     case 10:
+    terribleMachineObj.vspeed = 10;
     text = "This is my greatest invention yet, my Terribly#Evil Machine(TM)(C)(Pattent Pending)!";  
     break;
     
