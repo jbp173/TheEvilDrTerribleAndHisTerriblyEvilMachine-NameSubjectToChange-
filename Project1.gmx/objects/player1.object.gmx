@@ -63,6 +63,9 @@ if (vsp &lt; 10) vsp += grav;
 if (place_meeting(x,y+1, floor1))
 {
    vsp = key_jump * -jumpspeed;
+   if(key_jump){
+    audio_play_sound(player1Jump, 1, 0);
+   }
 }
 
 var hsp_final = hsp + hsp_carry; //on gain effect while on platform
