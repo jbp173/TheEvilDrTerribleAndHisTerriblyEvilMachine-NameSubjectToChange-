@@ -65,7 +65,6 @@ if (place_meeting(x,y+1, floor1))
    vsp = key_jump * -jumpspeed;
 }
 
-
 var hsp_final = hsp + hsp_carry; //on gain effect while on platform
 
 hsp_carry = 0;  //reset carry speed
@@ -93,6 +92,8 @@ if (place_meeting(x,y+vsp,floor1))
 }
 
 y += round(vsp);
+
+
 
 </string>
           </argument>

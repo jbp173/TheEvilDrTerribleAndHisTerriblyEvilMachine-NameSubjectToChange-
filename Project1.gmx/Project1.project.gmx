@@ -51,13 +51,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
-    <room>rooms\EndingCutscene</room>
+    <room>rooms\OpeningCutscene</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
     <room>rooms\Level3</room>
-    <room>rooms\OpeningCutscene</room>
     <room>rooms\Level4</room>
     <room>rooms\Level5</room>
+    <room>rooms\EndingCutscene</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41954.1945635185</constant>

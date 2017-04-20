@@ -67,8 +67,11 @@ if (place_meeting(x+hsp,y,floor1))  //are we about to hit a wall
 
 x += hsp;
 
-if place_meeting(x,y-1, player){ //player above me
-            player.hsp_carry = hsp;
+if place_meeting(x,y-1, player1){ //player above me
+            player1.hsp_carry = hsp;
+}
+if place_meeting(x,y-1, player2){ //player above me
+            player2.hsp_carry = hsp;
 }
 
 if(place_meeting(x+sign(hsp), y, player)){
