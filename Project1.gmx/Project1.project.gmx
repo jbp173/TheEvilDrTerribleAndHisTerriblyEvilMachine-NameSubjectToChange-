@@ -44,13 +44,18 @@
     <object>objects\terrible</object>
     <object>objects\screenFlash</object>
     <object>objects\terribleMachineObj</object>
+    <object>objects\endingChar</object>
+    <object>objects\endingDoctor</object>
+    <object>objects\endingMachine</object>
+    <object>objects\endingTextbox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
-    <room>rooms\OpeningCutscene</room>
+    <room>rooms\EndingCutscene</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
     <room>rooms\Level3</room>
+    <room>rooms\OpeningCutscene</room>
     <room>rooms\Level4</room>
     <room>rooms\Level5</room>
   </rooms>
