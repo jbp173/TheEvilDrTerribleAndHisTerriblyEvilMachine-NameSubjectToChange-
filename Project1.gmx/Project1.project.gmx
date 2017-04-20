@@ -14,11 +14,19 @@
     <sprite>sprites\spriteFadeOut</sprite>
     <sprite>sprites\spriteFadeIn</sprite>
     <sprite>sprites\theDoctor</sprite>
+    <sprite>sprites\doctorOriginal</sprite>
+    <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\Textbox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
     <object>objects\player1</object>
     <object>objects\player2</object>
@@ -30,8 +38,14 @@
     <object>objects\screenFadeOut</object>
     <object>objects\Doctor</object>
     <object>objects\player</object>
+    <object>objects\openingChar</object>
+    <object>objects\textboxObj</object>
+    <object>objects\terrible</object>
+    <object>objects\screenFlash</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\MainMenu</room>
+    <room>rooms\OpeningCutscene</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
     <room>rooms\Level3</room>

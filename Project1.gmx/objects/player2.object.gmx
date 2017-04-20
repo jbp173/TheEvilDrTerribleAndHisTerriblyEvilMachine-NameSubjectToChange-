@@ -55,7 +55,7 @@ else
 move = key_left + key_right;
 hsp = move * movespeed;
 if (vsp &lt; 10) vsp += grav;
-if(hsp != 0){image_speed = movespeed/room_speed;} else { image_speed = 0;}
+if(hsp != 0){image_speed = movespeed/room_speed;} else { image_speed = movespeed/(room_speed*3);}
 
 if (place_meeting(x,y+1, floor1))
 {
