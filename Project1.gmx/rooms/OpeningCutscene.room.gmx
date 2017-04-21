@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>audio_play_sound(backgroundMusic, 1, 1);</code>
+  <code>if(!audio_is_playing(backgroundMusic)){
+audio_play_sound(backgroundMusic, 1, 1);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -56,6 +58,7 @@
     <instance objName="openingChar" x="512" y="320" name="inst_F36D0AC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="terrible" x="-192" y="-800" name="inst_5348FCDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="terribleMachineObj" x="704" y="-320" name="inst_E13F4DFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oGame" x="-96" y="320" name="inst_F92D5ECF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -57,6 +57,7 @@
     <room>rooms\MainMenu</room>
     <room>rooms\OpeningCutscene</room>
     <room>rooms\Level1</room>
+    <room>rooms\room8</room>
     <room>rooms\Level2</room>
     <room>rooms\Level5</room>
     <room>rooms\EndingCutscene</room>

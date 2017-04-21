@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>text = "Ah, hello there!"
+            <string>text = "Ah, hello there![Press Enter to Continue]"
 draw_set_color(c_white);
 num = 0;
 no = 0;
