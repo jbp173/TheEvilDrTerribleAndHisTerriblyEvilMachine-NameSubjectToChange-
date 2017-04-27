@@ -327,8 +327,8 @@
     <instance objName="floor1" x="800" y="384" name="inst_8C3494A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floor1" x="896" y="384" name="inst_76435450" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floor1" x="928" y="384" name="inst_1B5C0AE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="goal" x="256" y="320" name="inst_44759C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="goal" x="768" y="320" name="inst_92CCAE57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="goal" x="256" y="352" name="inst_44759C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="goal" x="768" y="352" name="inst_92CCAE57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floor1" x="32" y="224" name="inst_A7DD9974" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floor1" x="64" y="224" name="inst_A98C8EA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="floor1" x="96" y="224" name="inst_A4699649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
