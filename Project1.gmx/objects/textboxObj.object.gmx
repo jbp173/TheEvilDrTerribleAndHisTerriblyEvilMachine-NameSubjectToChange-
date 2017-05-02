@@ -315,7 +315,7 @@ switch(num)
     break;    
     
     case 8:
-    text = "I'm sooooo evil, I won't even appologize for#breaking that text box! HAHAHAHA!"
+    text = "I'm sooooo evil, I won't even apologize for#breaking that text box! HAHAHAHA!"
     break;
     
     case 9:
@@ -324,12 +324,12 @@ switch(num)
     
     case 10:
     terribleMachineObj.vspeed = 10;
-    text = "This is my greatest invention yet, my Terribly#Evil Machine(TM)(C)(Pattent Pending)!";  
+    text = "This is my greatest invention yet, my Terribly#Evil Machine(TM)(C)(Patent Pending)!";  
     break;
     
     case 11:
     instance_create(0,0,screenFlash);
-    text = "BEHOLD MY GENIOUS!";
+    text = "BEHOLD MY GENIUS!";
     break;
     
     case 12:
@@ -341,9 +341,8 @@ switch(num)
     break;
     
     case 14:
-    text = "Brilliant, it really worked! Now for phase 6 of#my grandmaster plan, running off to my#magnificant castle, forcing you to chase after me#and solve my devious puzzles in order to recover your voices! HAHA! Nothing can stop me now!#None can stop my brilliance, I am the best! HAHAHAHA!";
+    text = "Brilliant, it really worked! Now for phase 6 of#my grandmaster plan, running off to my#magnificent castle, forcing you to chase after me#and solve my devious puzzles in order to recover your voices! HAHA! Nothing can stop me now!#None can stop my brilliance, I am the best! HAHAHAHA!";
     break;
-
     case 15:
     text = "Oh bother. It seems I was rambling again. No#matter! I shall be off! Chase after me if you#dare! HAHAHAHAHA!"
     break;     
@@ -381,11 +380,11 @@ switch(num)
     break;
     
     case 23:
-    text = "He can't here you all the way over here right#now, so you should have some time to talk#now and figure out a gameplan.";
+    text = "He can't here you all the way over here right#now, so you should have some time to talk#now and figure out a game plan.";
     break;
     
     case 24:
-    text = 'You both ready? Great, lets go get your voices#"back"!';
+    text = 'You both ready? Great, let’s go get your voices#"back"!';
     break;
     
     case 25:

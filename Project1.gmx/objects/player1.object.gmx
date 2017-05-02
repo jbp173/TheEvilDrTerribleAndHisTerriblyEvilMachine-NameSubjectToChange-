@@ -97,6 +97,14 @@ if (place_meeting(x,y+vsp,floor1))
 y += round(vsp);
 
 
+if(fade){
+    image_alpha -= 1/45;
+    if image_alpha == 0
+    {
+        x = -100;
+        y= -100; 
+    }
+}
 
 </string>
           </argument>
